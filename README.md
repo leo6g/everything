@@ -23,8 +23,10 @@ windows，jdk 1.8+
 ##### 下载地址：
 
 如电脑上已配置java 运行环境,可以单独下载everything.exe
+https://gitee.com/polarlb/everything/attach_files/833578/download/Everything.exe
 
 如电脑没有java运行环境，可以下载包含jre的版本
+https://gitee.com/polarlb/everything/attach_files/833580/download/Everything%20jre%20for%20windows.zip
 
 ##### 运行：
 
