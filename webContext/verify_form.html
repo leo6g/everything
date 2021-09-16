@@ -1,0 +1,10 @@
+<body style="text-align: center;padding: 200px;">
+    <p>正在提取：<b><i>erwerwewr</i></b>&nbsp;&nbsp;请输入提取码...</p>
+    <input id="fetchCode" type="text"></input><button type="submit" onclick="fetch()">提取</button>
+    <script>
+        function fetch(){
+            window.location.href = window.location+"&fetchCode="+document.getElementById("fetchCode").value;
+        }
+    </script>
+</body>
+
