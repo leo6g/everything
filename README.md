@@ -46,4 +46,22 @@ https://gitee.com/polarlb/everything/attach_files/833604/download/Everything-jre
 
 双击文件记录，可直接打开文件。
 
+##### 高级搜索
+
+path:D:\dir1\*  搜索路径匹配D:\dir1\*的文件
+
+file:key1 key2 !key3 搜索文件名包含key1 key2 但不包含key3的文件
+
+| 或者条件，取左右结果并集
+
+可以结合使用
+
+file:key1 key2 !key3 path:D:\dir1\\* | file:key1 key2 !key3 path:D:\dir2\\* 
+
+说明：搜索D:\dir1\文件夹下的 包含key1 key2 但不包含key3的文件 和 D:\dir2\文件夹下的 包含key1 key2 但不包含key3的文件
+
+file:key1 key2 !key3 在单独使用时 可以省略 file: 字符
+
+
+
 
